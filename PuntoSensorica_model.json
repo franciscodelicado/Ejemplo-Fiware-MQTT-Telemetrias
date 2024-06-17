@@ -1,0 +1,98 @@
+[
+    {
+        "id": "urn:ngsi-ld:SensorPoint:001",
+        "type": "SensorPoint",
+        "address": {
+            "type": "PostalAddress",
+            "value": {
+                "streetAddress": "Calle Marqués Molins, 9",
+                "addressLocality": "Albacete",
+                "addressCountry": "España",
+                "postalCode": "02002"
+            }
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [38.994183727315956, -1.8541825028836005]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Centro"
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:SensorPoint:002",
+        "type": "SensorPoint",
+        "address": {
+            "type": "PostalAddress",
+            "value": {
+                "streetAddress": "Calle José Zorrilla, 9",
+                "addressLocality": "Albacete",
+                "addressCountry": "España",
+                "postalCode": "02002"
+            }
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [38.99229519229902, -1.8496584739272859]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Carretas"
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:SensorPoint:003",
+        "type": "SensorPoint",
+        "address": {
+            "type": "PostalAddress",
+            "value": {
+                "streetAddress": "Carretera de las Peñas, 11",
+                "addressLocality": "Albacete",
+                "addressCountry": "España",
+                "postalCode": "02006"
+            }
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [38.98331363702306, -1.8641055613253508]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Carretera Peñas"
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:SensorPoint:004",
+        "type": "SensorPoint",
+        "address": {
+            "type": "PostalAddress",
+            "value": {
+                "streetAddress": "Calle Feria, 137",
+                "addressLocality": "Albacete",
+                "addressCountry": "España",
+                "postalCode": "02004"
+            }
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "type": "Point",
+                "coordinates": [38.99615762058564, -1.8688806550079868]
+            }
+        },
+        "name": {
+            "type": "Text",
+            "value": "Feria"
+        }
+    }
+]

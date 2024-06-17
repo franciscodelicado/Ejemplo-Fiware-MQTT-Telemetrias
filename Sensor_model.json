@@ -1,0 +1,64 @@
+[
+    {
+        "device_id": "temp001",
+        "entity_id": "urn:ngsi-ld:Temperature:001",
+        "entity_type": "Temperature",
+        "protocol": "PDI-IoTA-UltraLight",
+        "transport": "MQTT",
+        "timezone": "Europe/Madrid",
+        "attributes":[
+            {
+                "object_id": "t",
+                "name": "temperature",
+                "type": "Number"}
+        ]
+    },
+    {
+        "device_id": "temp002",
+        "entity_id": "urn:ngsi-ld:Temperature:002",
+        "entity_type": "Temperature",
+        "protocol": "PDI-IoTA-UltraLight",
+        "transport": "MQTT",
+        "timezone": "Europe/Madrid",
+        "attributes":[
+            {
+                "object_id": "t",
+                "name": "temperature",
+                "type": "Number"}
+        ]
+    },
+    {
+        "device_id": "luminosity001",
+        "entity_id": "urn:ngsi-ld:Luminosity:001",
+        "entity_type": "Luminosity",
+        "protocol": "PDI-IoTA-UltraLight",
+        "transport": "MQTT",
+        "timezone": "Europe/Madrid",
+        "attributes":[
+            {
+                "object_id": "l",
+                "name": "luminosity",
+                "type": "Number"}
+        ]
+    },
+    {
+        "device_id": "lumtemp001",
+        "entity_id": "urn:ngsi-ld:LumTemp:002",
+        "entity_type": "LuminosityTemperature",
+        "protocol": "PDI-IoTA-UltraLight",
+        "transport": "MQTT",
+        "timezone": "Europe/Madrid",
+        "attributes":[
+            {
+                "object_id": "l",
+                "name": "luminosity",
+                "type": "Number"
+            },
+            {
+                "object_id": "t",
+                "name": "temperature",
+                "type": "Number"
+            }
+        ]
+    }
+]
